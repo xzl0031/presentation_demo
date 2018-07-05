@@ -7,5 +7,9 @@ int main()
     int x = 1;
     int y = 2;
     //Li: Please add a swap funciton
+    int temp = x;
+    x = y;
+    y = temp;
+    // Swap has been finished
   return 0;
 }
